@@ -55,7 +55,7 @@ completion = client.chat.completions.create(
     ]
 )
 
-print(completion.choices[0].message['content'])
+print(completion.choices[0].message.content)
 ```
 
 Con este proyecto, se espera que los desarrolladores ganen la confianza necesaria para aprovechar al máximo las capacidades de OpenAI, integrando estas herramientas avanzadas en sus aplicaciones innovadoras. A medida que avancemos, nos sumergiremos en diferentes casos de uso y exploraremos las mejores prácticas para el desarrollo con OpenAI.
